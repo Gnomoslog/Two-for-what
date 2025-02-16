@@ -31,5 +31,41 @@ span{
 
         .activity_title_hours{
          display: flex;
-     }
+     } 
      
+ .RGB1 {
+      background: linear-gradient(to right, red, orange, yellow, green, rgb(255, 94, 0), blue, violet);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 40px;
+      line-height: 40px;
+    }
+
+ .RGB2 {
+      background: linear-gradient(to right, pink  , rgba(21, 132, 146, 0.87)  , rgb(255, 191, 0) , #F3E5C6, rgb(255, 94, 0), gold  , violet);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 40px;
+      line-height: 40px;
+    }
+
+ .RGB3 {
+      background: linear-gradient(to right, red, orange, yellow, green, rgb(255, 94, 0), blue, violet);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 40px;
+      line-height: 40px;
+    }
+    /* .cc{
+      background-image: url(scool.gif);
+      background-repeat: no-repeat;
+      background-position: 50px 176px;
+    } */
+
+    .cicret {
+      background: linear-gradient(to right, pink  , rgba(21, 132, 146, 0.87)  , rgb(255, 191, 0)yellow , #F3E5C6, rgb(255, 94, 0), gold  , violet);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 40px;
+      line-height: 40px;
+    }
