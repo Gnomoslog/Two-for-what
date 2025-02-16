@@ -1,4 +1,4 @@
-span{
+.span{
     font-style: italic;
     background-color: rgba(211, 199, 29, 0.842);
     color: rgb(134, 33, 173);
@@ -50,7 +50,7 @@ span{
     }
 
  .RGB3 {
-      background: linear-gradient(to right, red, orange, yellow, green, rgb(255, 94, 0), blue, violet);
+      background: linear-gradient(to right, rgb(107, 18, 18), rgb(78, 17, 114), rgb(255, 238, 0), rgba(27, 197, 56, 0.39), rgb(255, 94, 0), rgb(12, 192, 108), violet);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-size: 40px;
@@ -69,3 +69,7 @@ span{
       font-size: 40px;
       line-height: 40px;
     }
+    /* h2{
+      font-style: italic;
+    background-color: rgba(211, 199, 29, 0.842);
+    color: rgb(134, 33, 173);} */
