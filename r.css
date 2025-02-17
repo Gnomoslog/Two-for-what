@@ -1,0 +1,18 @@
+.a {
+  text-decoration: none; 
+  color: #1ebe1e; 
+  font-size: 24px; /* Размер шрифта для ссылок */
+  display: block; /* Ссылки будут на новой строке */
+  margin: 10px 0; /* Отступы между ссылками */
+  transition: color 0.3s; /* Переход для цвета */
+}
+
+.a:hover {
+  color: rgb(160, 59, 59); /* Белый цвет текста при наведении */
+}
+
+/* .centered-list {
+  list-style-type: none; /* Убрать маркеры списка 
+  padding: 0; /* Убрать отступы 
+} */
+
