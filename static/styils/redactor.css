@@ -73,6 +73,9 @@ body {
       font-size: 40px;
       line-height: 40px;
     }
+    
+    /* :hover {
+      background-position: 100% 50%; /* Конечная позиция фона при наведении } */
 
  .RGB2 {
       background: linear-gradient(to right, rgb(19, 205, 238), gold  , rgb(19, 209, 243));
@@ -233,3 +236,19 @@ body {
   text-transform: uppercase;
   text-shadow: 7px 7px 10px #00c3ff79;
 }
+
+
+
+/* .container {
+  margin-top: 200px; 
+} */
+/* Отступ сверху для контейнера */
+
+/* h1 {
+  background: linear-gradient(45deg, rgba(89, 5, 122, 0.959), rgba(135, 206, 235, 1)); /* Градиент от фиолетового к голубому 
+  -webkit-background-clip: text; /* Обрезка фона по тексту 
+  -webkit-text-fill-color: transparent; /* Прозрачный цвет текста 
+  font-size: 48px; /* Размер шрифта заголовка (большой шрифт) 
+  margin-bottom: 20px; /* Отступ снизу для заголовка 
+  transition: background 0.5s, -webkit-background-position 0.5s; /* Плавный переход для фона 
+  background-size: 200% 200%; /* Увеличиваем размер фона для анимации background-position: 0% 50%; /* Начальная позиция фона } */
