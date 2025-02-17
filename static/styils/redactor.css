@@ -148,6 +148,15 @@ body {
       line-height: 23px;
     }
 
+    .RGB10 {
+      background: linear-gradient(to right, rgb(162, 245, 245), rgb(200, 255, 0) ,  rgba(19, 160, 179, 0.87)) ;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 23px;
+      line-height: 23px;
+    }
+
+
                      /* 1  element и иные названия  испоользовался 4-6 раз*/
 
     .element {
@@ -198,6 +207,14 @@ body {
     .lo:hover {
       box-shadow: 0 0 50px #f1dede;  /*  свечение, радиус px */
     }
+    .londom {
+      transition: box-shadow 0.73s ease;  /* Плавное появление свечения */
+    }
+ 
+    .londom:hover {
+      box-shadow: 0 0 50px #41282c;  /*  свечение, радиус px */
+    }
+    
     
              /* 1  element и иные названия  испоользовался 1 раз*/
     .cicret {
