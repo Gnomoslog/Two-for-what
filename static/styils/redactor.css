@@ -32,16 +32,15 @@
    /* padding: -это внутри */
  } 
 
-          /* 1 logo1 испоользовался 2 раз*/
+          /* 2 logo1 испоользовался 2 раз*/
  .logo1{
-        width: 710px; margin-left: auto; margin-right: auto;
-        }
+    color: goldenrod;
+}
+.logo2{
+  color: greenyellow;
+}
 
-        .activity_title_hours{
-         display: flex;
-     } 
-
-             /* 1  RGB  испоользовался 5 раз*/
+             /* 1  RGB  испоользовался 9 раз*/
  .RGB1 {
       background: linear-gradient(to right, red, orange, yellow, rgb(161, 2, 224), rgb(115, 255, 0), blue, violet);
       -webkit-background-clip: text;
@@ -90,6 +89,37 @@
       -webkit-text-fill-color: transparent;
       font-size: 40px;
       line-height: 40px;
+    }
+
+    .RGB6 {
+      background: linear-gradient(to right, rgb(14, 202, 193), rgb(188, 199, 33));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 23px;
+      line-height: 23px;
+    }
+
+    .RGB7 {
+      background: linear-gradient(to right, rgb(175, 177, 177), rgb(200, 255, 0) ,  rgba(19, 160, 179, 0.87)) ;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 23px;
+      line-height: 23px;
+    }
+
+    .RGB8 {
+      background: linear-gradient(to right, rgba(124, 126, 126, 0.637), rgb(225, 226, 222) ,  rgba(134, 134, 134, 0.87)) ;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 23px;
+      line-height: 23px;
+    }
+    .RGB9 {
+      background: linear-gradient(to right, rgba(230, 27, 13, 0.637), rgb(225, 226, 222) , rgba(230, 27, 13, 0.637)) ;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 23px;
+      line-height: 23px;
     }
 
                      /* 1  element и иные названия  испоользовался 4-6 раз*/
@@ -151,3 +181,4 @@
       font-size: 40px;
       line-height: 40px;
     }
+
