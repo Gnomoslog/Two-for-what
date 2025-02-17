@@ -1,4 +1,29 @@
-      /* 1 span испоользовался 1 раз*/
+/* 1 h2 испоользовался хз скок раз*/
+
+h2 {
+  color: rgba(145, 32, 32, 0.178);
+  text-align: center;
+}
+
+  /* 1 body испоользовался 1 раз*/
+body {
+  
+  background-image: url(https://i.pinimg.com/originals/4f/df/c1/4fdfc15e4339422e434b294f3382de0a.png);
+  /* изображения */
+  background-position: center center;
+    /*  изображение всегда смотрит за сторанами */
+  background-repeat: no-repeat;
+   /*  изображение не повторяется */
+   background-attachment: fixed;
+   /*  изображение зафиксировано в окне , поэтому оно не смещается */
+  background-size: cover;
+     /* подгоняет фон так что бы он был растянут на весь экран  */
+  background-color: #48ff00;
+   /* Устанавливает фоновый цвет, который будет отображаться, пока загружается фоновое изображение */
+}
+
+
+ /* 1 span испоользовался 1 раз*/
 .span{
     font-style: italic;
     background-color: rgba(211, 199, 29, 0.842);
@@ -40,9 +65,9 @@
   color: greenyellow;
 }
 
-             /* 1  RGB  испоользовался 9 раз*/
+             /* 1  RGB  испоользовался 5 раз*/
  .RGB1 {
-      background: linear-gradient(to right, red, orange, yellow, rgb(161, 2, 224), rgb(115, 255, 0), blue, violet);
+      background: linear-gradient(to right,  rgb(110, 3, 153),  rgb(24, 205, 236), rgb(115, 255, 0), blue );
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-size: 40px;
@@ -50,7 +75,7 @@
     }
 
  .RGB2 {
-      background: linear-gradient(to right, pink  , rgba(21, 132, 146, 0.87)  , rgb(255, 191, 0) , #F3E5C6, rgb(255, 94, 0), gold  , violet);
+      background: linear-gradient(to right, rgb(19, 205, 238), gold  , rgb(19, 209, 243));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-size: 40px;
@@ -58,7 +83,7 @@
     }
 
  .RGB3 {
-      background: linear-gradient(to right, rgb(107, 18, 18), rgb(78, 17, 114), rgb(255, 238, 0), rgba(27, 197, 56, 0.39), rgb(255, 94, 0), rgb(12, 192, 108), violet);
+      background: linear-gradient(to right, rgb(255, 238, 0), rgb(30, 255, 0), violet);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-size: 40px;
@@ -76,15 +101,16 @@
     background-color: rgba(211, 199, 29, 0.842);
     color: rgb(134, 33, 173);} */
  .RGB4 {
-      background: linear-gradient(to right, rgb(240, 240, 240)  ,rgb(221, 36, 36)  , rgba(170, 177, 81, 0.61) , #F3E5C6, rgb(255, 74, 11), gold  , violet);
+      background: linear-gradient(to right, rgb(30, 255, 0) , gold  , violet);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-size: 40px;
       line-height: 40px;
+      
     }
 
     .RGB5 {
-      background: linear-gradient(to right, rgb(60, 255, 0)  ,rgb(182, 13, 13)  , rgba(180, 977, 01, 9.61) , #8b6e2f, rgb(255, 74, 11), gold  , violet);
+      background: linear-gradient(to right, rgb(60, 255, 0)  ,rgb(255, 196, 0)  , rgba(180, 977, 01, 9.61) , rgb(255, 74, 11), gold );
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-size: 40px;
@@ -125,7 +151,7 @@
                      /* 1  element и иные названия  испоользовался 4-6 раз*/
 
     .element {
-      transition: box-shadow 0.3s ease;  /* Плавное появление свечения */
+      transition: box-shadow 0.73s ease;  /* Плавное появление свечения */
     }
 
     .element:hover {
@@ -133,40 +159,40 @@
     }
     
     .elem {
-      transition: box-shadow 0.5s ease;  /* Плавное появление свечения */
+      transition: box-shadow 0.74s ease;  /* Плавное появление свечения */
     }
     
     .elem:hover {
-      box-shadow: 0 0 80px #00e1ff;  /*  свечение, радиус px */
+      box-shadow: 0 0 80px #f38304;  /*  свечение, радиус px */
     }
 
     
     .el {
-      transition: box-shadow 0.4s ease;  /* Плавное появление свечения */
+      transition: box-shadow 0.44s ease;  /* Плавное появление свечения */
     }
 
     .el:hover {
-      box-shadow: 0 0 70px #4505bdd3;  /*  свечение, радиус px */
+      box-shadow: 0 0 70px #d80869;  /*  свечение, радиус px */
     }
     
     .elt {
-      transition: box-shadow 0.3s ease;  /* Плавное появление свечения */
+      transition: box-shadow 0.73s ease;  /* Плавное появление свечения */
     }
  
     .elt:hover {
-      box-shadow: 0 0 80px #f700b9;  /*  свечение, радиус px */
+      box-shadow: 0 0 80px #caf700;  /*  свечение, радиус px */
     }
 
    .logi {
-      transition: box-shadow 0.3s ease;  /* Плавное появление свечения */
+      transition: box-shadow 0.75s ease;  /* Плавное появление свечения */
     }
  
     .logi:hover {
-      box-shadow: 0 0 50px #fd3535;  /*  свечение, радиус px */
+      box-shadow: 0 0 32px rgba(0, 255, 136, 0.795);  /*  свечение, радиус px */
     }
     
     .lo {
-      transition: box-shadow 0.3s ease;  /* Плавное появление свечения */
+      transition: box-shadow 0.73s ease;  /* Плавное появление свечения */
     }
  
     .lo:hover {
@@ -180,5 +206,13 @@
       -webkit-text-fill-color: transparent;
       font-size: 40px;
       line-height: 40px;
+      text-decoration: none;
+       /* Убирает у ___ 'a' ну  нижнее подчеркивание у ссылк */
     }
 
+
+.wrapper p {
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 7px 7px 10px #00c3ff79;
+}
