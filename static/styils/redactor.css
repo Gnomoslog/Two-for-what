@@ -159,6 +159,15 @@ body {
       line-height: 23px;
     }
 
+    .RGB11 {
+      background: linear-gradient(to right, rgb(169, 255, 255), rgb(0, 255, 128) ,  rgba(0, 225, 255, 0.87)) ;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 23px;
+      line-height: 23px;
+    }
+
+
 
                      /* 1  element и иные названия  испоользовался 4-6 раз*/
 
@@ -209,8 +218,8 @@ body {
     }
  
     .logi:hover {
-      box-shadow: 0 0 32px rgba(0, 255, 136, 0.795);  /*  свечение, радиус px */
-      text-shadow : 0 0 32px  rgb(0, 194, 243); 
+      box-shadow: 0 0 90px rgba(0, 255, 136, 0.795);  /*  свечение, радиус px */
+      text-shadow : 0 0 70px  rgb(0, 194, 243); 
     }
     
     .lo {
@@ -266,3 +275,31 @@ body {
   margin-bottom: 20px; /* Отступ снизу для заголовка 
   transition: background 0.5s, -webkit-background-position 0.5s; /* Плавный переход для фона 
   background-size: 200% 200%; /* Увеличиваем размер фона для анимации background-position: 0% 50%; /* Начальная позиция фона } */
+
+
+/* 1  bigbols и иные названия  испоользовался 2 раз*/
+
+  .bigbols{
+    color: #caf700;
+    font-size: 17px;
+    line-height: 17px;
+  }
+
+   /* 1  bscroll-left и  и content иные названия  испоользовался 2 раз */
+
+   /* .scroll-top {
+    overflow-x: auto;
+    transform: rotate(180deg);
+    height: 150px;
+    width: 300px;
+    border: 1px solid #000;
+}
+.content {
+    transform: rotate(180deg);
+} */
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+background-color: #9cbb12;
+color: #779c11;
+}
