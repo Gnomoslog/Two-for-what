@@ -164,58 +164,72 @@ body {
 
     .element {
       transition: box-shadow 0.73s ease;  /* Плавное появление свечения */
+      transition: text-shadow  0.75s ease; 
     }
 
     .element:hover {
       box-shadow: 0 0 70px #adf700;  /*  свечение, радиус px */
+      text-shadow : 0 0 32px  rgb(97, 243, 0); 
     }
     
     .elem {
       transition: box-shadow 0.74s ease;  /* Плавное появление свечения */
+      transition: text-shadow  0.75s ease; 
     }
     
     .elem:hover {
       box-shadow: 0 0 80px #f38304;  /*  свечение, радиус px */
+      text-shadow : 0 0 32px  rgb(243, 239, 0); 
     }
 
     
     .el {
       transition: box-shadow 0.44s ease;  /* Плавное появление свечения */
+      transition: text-shadow  0.75s ease; 
     }
 
     .el:hover {
       box-shadow: 0 0 70px #d80869;  /*  свечение, радиус px */
+      text-shadow : 0 0 32px  rgb(17, 231, 149); 
     }
     
     .elt {
       transition: box-shadow 0.73s ease;  /* Плавное появление свечения */
+      transition: text-shadow  0.75s ease; 
     }
  
     .elt:hover {
       box-shadow: 0 0 80px #caf700;  /*  свечение, радиус px */
+      text-shadow : 0 0 32px #caf700;
     }
 
    .logi {
       transition: box-shadow 0.75s ease;  /* Плавное появление свечения */
+      transition: text-shadow  0.75s ease; 
     }
  
     .logi:hover {
       box-shadow: 0 0 32px rgba(0, 255, 136, 0.795);  /*  свечение, радиус px */
+      text-shadow : 0 0 32px  rgb(0, 194, 243); 
     }
     
     .lo {
       transition: box-shadow 0.73s ease;  /* Плавное появление свечения */
+      transition: text-shadow  0.75s ease; 
     }
  
     .lo:hover {
       box-shadow: 0 0 50px #f1dede;  /*  свечение, радиус px */
+      text-shadow : 0 0 32px #a8b473;
     }
     .londom {
       transition: box-shadow 0.73s ease;  /* Плавное появление свечения */
+      transition: text-shadow  0.75s ease; 
     }
  
     .londom:hover {
       box-shadow: 0 0 50px #41282c;  /*  свечение, радиус px */
+      text-shadow : 0 0 32px #59325a;
     }
     
     
