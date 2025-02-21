@@ -168,6 +168,15 @@ body {
     }
 
 
+    .RGB12 {
+      background: linear-gradient(to right, rgb(255, 169, 169), rgb(253, 185, 255) ,  rgba(255, 130, 130, 0.87)) ;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 23px;
+      line-height: 23px;
+    }
+
+
 
                      /* 1  element и иные названия  испоользовался 4-6 раз*/
 
@@ -303,3 +312,15 @@ audio::-webkit-media-controls-panel {
 background-color: #9cbb12;
 color: #779c11;
 }
+
+    /* градиент фон  */
+/* 
+.graind{
+  background: radial-gradient(ellipse at bottom ltft, 
+  rgba(121,0,223,32)10%,
+  rgba(161,10,123,32) 40%),
+  linear-gradient(to bottom, rgba(83,224,123,32)),
+  rgba(0,110,223,32),
+  linear-gradient (135deg, chocolate, goldenrod);
+} */
+
