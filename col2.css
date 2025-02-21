@@ -1,0 +1,305 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background-color:rgba(255, 255, 255, 0);
+  padding: 10px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(131, 104, 141, 0);
+  padding: 1px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+html{
+  min-height: 100%;
+}
+.container{
+  display: flex;
+  justify-content: left;
+  margin-top : 70px;
+}
+
+.view{
+  margin: 10px;
+  float: left;
+  border: 10px solid white;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  box-shadow: 1px 1px 10px #88c90f;
+  cursor: default;
+}
+
+.view .mask{
+  width: 1px;
+  height: 1px ;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.view img{
+  display: block;
+  position: relative;
+  /* возможно все потому что должен быть absolute */
+}
+
+.view h2{
+  text-transform: uppercase;
+  font-style: italic;
+  color: #9cbb12;
+  text-align: center;
+  position: relative;
+  font-size: 19px;
+  font-family: Raleway, serif;
+  padding: 10px;
+  margin: 20px 0 0;
+}
+
+.view p{
+  font-family: Merriweather, serif;
+  font-style: italic;
+  font-size: 18px ;
+  position:relative ;
+  color: greenyellow;
+  padding: 0 20px 0;
+  text-align: center;
+}
+
+.view a.info{
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 10px;
+  background: #93af18;
+  color: #41282c;
+  font-family: Releway  , serif;
+  font-size: 10px;
+  text-transform:  uppercase;
+  box-shadow:  0 0 1px  black;
+}
+
+.view a.info:hover{
+  box-shadow: 0 0 5px  black ;
+}
+
+.view-first img{
+  transition: all 0.2s linear;
+  width: 350px;
+  height: 250px;
+}
+
+.view-first .mask{
+  opacity: 0 ;
+  background-color: rgba(57, 1, 123, 0.44) ;
+  transition: all 0.4s ease-in-out;
+}
+
+.view-first h2{
+  transform: translateY(-100px);
+  opacity: 0;
+  font-family: Raleway, serif;
+  transition: all 0.2 ease-in-out;
+}
+
+.view-first p{
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+.view-first a.info{
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.view-first:hover img{
+  transform: scale(1.1);
+}
+
+.view-first:hover .mask{
+  opacity: 1;
+}
+
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.view-first:hover p{
+  transition-duration: 0.1s;
+}
+
+.view-first:hover a.info{
+  transition-duration: 0.2s;
+}
+
+
+
+
+/* 
+
+html{
+  min-height: 100%;
+}
+.containe{
+  display: flex;
+  justify-content: center;
+  margin-top : 70px;
+}
+
+.vie{
+  margin: 10px;
+  float: left;
+  border: 10px solid white;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  box-shadow: 1px 1px 10px #88c90f;
+  cursor: default;
+}
+
+.vie .mas{
+  width: 1px;
+  height: 11px ;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.vie img{
+  display: block;
+  position: relative;
+}
+
+.vie h2{
+  text-transform: uppercase;
+  font-style: italic;
+  color: #9cbb12;
+  text-align: center;
+  position: relative;
+  font-size: 19px;
+  font-family: Raleway, serif;
+  padding: 10px;
+  margin: 20px 0 0;
+}
+
+.vie p{
+  font-family: Merriweather, serif;
+  font-style: italic;
+  font-size: 18px ;
+  position:relative ;
+  color: greenyellow;
+  padding: 0 20px 0;
+  text-align: center;
+}
+
+.vie a.inf{
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 10px;
+  background: #93af18;
+  color: #41282c;
+  font-family: Releway  , serif;
+  font-size: 10px;
+  text-transform:  uppercase;
+  box-shadow:  0 0 1px  black;
+}
+
+.vie a.inf:hover{
+  box-shadow: 0 0 5px  black ;
+}
+
+.vie-firs img{
+  transition: all 0.2s linear;
+  width: 350px;
+  height: 250px;
+}
+
+.vie-firs .mas{
+  opacity: 0 ;
+  background-color: rgba(57, 1, 123, 0.44) ;
+  transition: all 0.4s ease-in-out;
+}
+
+.vie-firs h2{
+  transform: translateY(-100px);
+  opacity: 0;
+  font-family: Raleway, serif;
+  transition: all 0.2 ease-in-out;
+}
+
+.vie-firs p{
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+.vie-firs a.inf{
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.vie-firs:hover img{
+  transform: scale(1.1);
+}
+
+.vie-firs:hover .mas{
+  opacity: 1;
+}
+
+.vie-firs:hover h2,
+.vie-firs:hover p,
+.vie-firs:hover a.inf{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.vie-firs:hover p{
+  transition-duration: 0.1s;
+}
+
+.vie-firs:hover a.inf{
+  transition-duration: 0.2s;
+} */
