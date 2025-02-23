@@ -1,0 +1,45 @@
+
+
+input::-webkit-input-placeholder {
+  color: #0084ff; 
+  font-style: italic; 
+}
+
+
+/* .className {
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+} */
+
+form {
+  width: auto;
+  float: left;
+  margin-left: 760px;
+}
+input {
+  width: 250px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #4dedff;
+  background: #ffffff;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+input:focus {
+  width: 300px;
+}
+
+
+ button {
+  width: 140px;
+  height: 40px;
+  border-radius: 100px;
+  border: 2px solid #11e7ff;
+  background: #ffffff;
+
+}
