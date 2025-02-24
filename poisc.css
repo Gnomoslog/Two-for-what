@@ -43,3 +43,14 @@ input:focus {
   background: #ffffff;
 
 }
+
+.s1{align-self: center;}
+
+.Opisanie {
+  color: rgb(70, 228, 207);
+  font-weight: 900;
+}
+
+.link {
+  text-decoration: none; 
+}
