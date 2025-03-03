@@ -176,6 +176,14 @@ body {
       line-height: 23px;
     }
 
+   .RGB13 {
+      background: linear-gradient(to right, rgb(255, 123, 0),rgb(255, 51, 0)  ) ;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 23px;
+      line-height: 23px;
+    }
+
 
 
                      /* 1  element и иные названия  испоользовался 4-6 раз*/
