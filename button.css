@@ -1,0 +1,88 @@
+/* Сдесь будут все кнопки и их настройки */
+
+/* логично что это? */
+/* .body {
+  background-color: rgba(161, 120, 120, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+
+} */
+
+/* Сама кнопка и размер и тд */
+.button {
+  padding: 20px 20px;
+  text-transform: uppercase; 
+  color: #fff;
+  font-size: 23px;
+  background-color: rgb(66, 66, 66);
+  border: 2px solid goldenrod;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: .3s;
+  outline: none;
+  margin-left: 100px;
+
+  background-color: rgba(161, 120, 120, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+/* Внутриности кнопки имено фон задний */
+button:hover {
+  background-color: goldenrod;
+}
+
+/* анимка? */
+button:before, button:after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 50%;
+  transition: .3s;
+  z-index: -1;
+}
+
+/* левая нижняя обводка */
+button:before {
+  border-bottom: 5px solid goldenrod;
+  border-left: 5px solid goldenrod;
+  top: 60%;
+  left: -8%;
+}
+
+/* правая обводка */
+button:after {
+  border-top: 5px solid goldenrod;
+  border-right: 5px solid goldenrod;
+  bottom: 60%;
+  right: -8%;
+ 
+}
+
+/* анимация левая нижней обводка */
+button:active:before {
+  top: 70%;
+  left: -12%;
+
+}
+
+/* анимация правая верхния обводка */
+button:active:after {
+  bottom: 70%;
+  right: -12%;
+  
+}
+
+
+button:active:before, button:active:after{
+  width: 30%;
+  height: 60%;
+}
+
+
+
+
